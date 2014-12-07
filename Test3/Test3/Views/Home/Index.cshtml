@@ -1,0 +1,29 @@
+﻿@model Test3.Models.RecentArticleModel
+
+<div id="templatemo_header">
+
+    <div id="header_left">
+        <div id="site_title">
+            <a href="@Url.RouteUrl("Default", new { id = "Home" })"><img src="~/Content/images/templatemo_logo.png" alt="logo" /><span>Welcom everyone to the Orange Blog!</span></a>
+        </div>
+    </div>
+    <!-- end of site_title -->
+
+    <div id="header_right">
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="@Url.RouteUrl("Default", new { id = "Home" })" class="current">Home</a></li>
+                <li><a href="@Url.RouteUrl("Gallary", new { seoUrl = "Gallary" })">Gallery</a></li>
+                <li><a href="@Url.RouteUrl("About", new { seoUrl = "AboutUs" })">About Us</a></li>
+                <li class="last"><a href="@Url.RouteUrl("Contact", new { seoUrl = "Contact Us" })">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- end of templatemo_menu -->
+
+    </div>
+    <div class="cleaner"></div>
+</div>
+
+
+
+     

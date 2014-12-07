@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Orange Blog</title>
+    <meta name="keywords" content="Orange Blog Theme, free css templates, CSS, HTML" />
+    <meta name="description" content="Orange Blog Theme - free CSS template provided by templatemo.com" />
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  @RenderBody()
+
+    <div id="templatemo_wrapper">
+
+        <div id="templatemo_middle">
+            <span class="bg"></span>
+
+            @Html.Action("Recent", "Article")
+
+            <div id="templatemo_sidebar">
+
+                <div class="one_col">
+
+                    <ul class="ads_125">
+                        <li><a href="http://www.templatemo.com/page/1" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 1" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/2" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 2" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/3" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 3" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/4" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 4" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/5" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 5" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/6" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 6" /></a></li>
+                    </ul>
+
+                    <div class="cleaner"></div>
+                </div>
+
+                @Html.Action("Recent", "Posts")
+
+                @Html.Action("Recent", "Comment")
+
+                <div class="cleaner"></div>
+
+            </div>
+
+            <div class="cleaner"></div>
+
+        </div>
+    </div>
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright В© 2014 | Designed by <a href="https://vk.com/maria_manzhos" target="_parent">Maria Manzhos</a>
+        </div>
+    </div>
+
+</body>
+</html>
+

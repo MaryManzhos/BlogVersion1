@@ -1,0 +1,172 @@
+﻿@{
+    Layout = null;
+}
+
+@model Test3.Models.BlogPostModel
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Orange Blog - Full Post Page</title>
+    <meta name="keywords" content="Orange Blog Theme, full post page, free css templates, CSS, HTML" />
+    <meta name="description" content="Orange Blog Theme (full post) - free CSS template provided by templatemo.com" />
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="templatemo_wrapper">
+
+        <div id="templatemo_header">
+
+            <div id="header_left">
+                <div id="site_title">
+                    <a href="@Url.RouteUrl("Default", new {Controller = "Home", Action = "Index", id = "Home" })"><img src="~/Content/images/templatemo_logo.png" alt="logo" /><span>Welcom everyone to the Orange Blog!</span></a>
+        </div> <!-- end of site_title -->
+            </div>
+
+            <div id="header_right">
+
+                <div id="templatemo_menu">
+                    <ul>
+                        <li><a href="@Url.RouteUrl("Default", new {Controller = "Home", Action = "Index", id = "Home" })" class="current">Home</a></li>
+                        <li><a href="@Url.RouteUrl("Gallary", new { seoUrl = "Gallary" })">Gallery</a></li>
+                        <li><a href="@Url.RouteUrl("About", new { seoUrl = "AboutUs" })">About Us</a></li>
+                        <li class="last"><a href="@Url.RouteUrl("Contact", new { seoUrl = "Contact Us" })">Contact Us</a></li>
+                    </ul>
+                </div>  
+                <!-- end of templatemo_menu -->
+
+            </div>
+
+            <div class="cleaner"></div>
+
+        </div>
+
+        <div id="templatemo_middle">
+            <span class="bg"></span>
+            <div id="templatemo_content_wrapper">
+                <div id="templatemo_content">
+
+                    <div class="post_section">
+
+                        <h2>@Model.Title </h2>
+
+                        <div class="post_meta">
+                            <strong>Date:</strong> @Model.Date.ToString("D") <strong>Author:</strong> @Model.Author
+                        </div>
+         
+                            <p>@Model.Body</p> 
+                     
+                        <!--Like-->
+                        <div class="post_likes">
+                            <ul>
+                                @foreach (var item in Model.Likes)
+                                    
+                                { <li><a href="#"><img src="~/Content/images/facebook.png" alt=" " /><span> @item.LikesCount </span></a></li>}
+                                
+                               <!-- <li><a href="#"><img src="images/myspace.png" alt=" " /><span>5</span></a></li>
+                                <li><a href="#"><img src="images/twitter.png" alt=" " /><span>5</span></a></li>-->
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                    <div class="comment_tab">
+                         Comments 
+                    </div>
+
+                    <div id="comment_section">
+
+                        <ol class="comments first_level">
+                           @foreach (var item in Model.Comments)
+                           {
+                                <li>
+                                <div class="comment_box commentbox1">
+
+                                    <div class="gravatar">
+                                        <img src="~/Content/images/avator.png" alt="author" />
+                                    </div>
+
+                                    <div class="comment_text">
+                                        <div class="comment_author"> @item.UserName <span class="date"> @item.Date.ToString("D")</span>@item.Date.ToString("hh:mm") <span class="time"> </span></div>
+                                        <p> @item.body </p>
+                                    </div>
+                                    <div class="cleaner"></div>
+                                </div>
+                            </li> 
+                           }
+                        </ol>
+
+                    </div>
+
+                   <div id="comment_form">
+                        <h3>Post your comment</h3>
+
+                        <form action="#" method="get">
+                            <div class="form_row">
+                                <label>Name (* required )</label><br />
+                                <input type="text" name="name" />
+                            </div>
+                            <div class="form_row">
+                                <label>Email  (* required but it will not be published )</label><br />
+                                <input type="text" name="name" />
+                            </div>
+                            <div class="form_row">
+                                <label>Your comment</label><br />
+                                <textarea name="comment" rows="" cols=""></textarea>
+                            </div>
+
+
+                            <input type="submit" name="Submit" value="Submit" class="submit_btn" />
+                            <input type="reset" name="Submit2" value="Reset" class="submit_btn" />
+                        </form>
+
+                    </div>  
+
+
+                </div>
+            </div>
+
+            <div id="templatemo_sidebar">
+
+                <div class="one_col">
+
+                    <ul class="ads_125">
+                        <li><a href="http://www.templatemo.com/page/1" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 1" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/2" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 2" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/3" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 3" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/4" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 4" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/5" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 5" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/6" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 6" /></a></li>
+                    </ul>
+
+                    <div class="cleaner"></div>
+                </div>
+
+              
+                @Html.Action("Recent", "Posts")
+
+                @Html.Action("Recent", "Comment")
+
+                <div class="cleaner"></div>
+
+            </div>
+
+            <div class="cleaner"></div>
+
+        </div>
+    </div>
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright В© 2014 | Designed by <a href="https://vk.com/maria_manzhos" target="_parent">Maria Manzhos</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+@model Test3.Models.RecentArticleModel
+
+<div id="templatemo_content_wrapper">
+    <div id="templatemo_content">
+
+        @foreach (var Item in Model.Item)
+        {
+            <div class="post_section">
+                <h2>@Item.Title</h2>
+
+                <div class="post_meta">
+                    <strong>Date: </strong>@Item.Date.ToString("D") <strong>Author: </strong>@Item.Author 
+                </div>
+
+                <img class="post_img" src="~/Content/images/templatemo_image_01.jpg" alt="image 1" />
+
+                <div class="right">
+                    <p>@Item.body </p>
+                </div>
+
+                <div class="cleaner_h20"></div>
+
+                <div class="post_button comment">
+                    <a href="@Url.RouteUrl("Comments", new { seoUrl = Item.URL1 })">@Item.comment</a>
+                </div>
+
+                <div class="post_button more">
+                    <a href="@Url.RouteUrl("Comments", new { seoUrl = Item.URL1 })"> Read more <span>&raquo;</span></a>
+                </div>
+
+                <div class="cleaner"></div>
+            </div>
+
+        }
+    </div>
+</div>
+

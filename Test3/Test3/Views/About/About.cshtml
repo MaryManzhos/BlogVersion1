@@ -1,0 +1,108 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Orange Blog - About</title>
+    <meta name="keywords" content="Orange Blog Theme, about, free css templates, CSS, HTML" />
+    <meta name="description" content="Orange Blog Theme (about page) - free CSS template from templatemo.com" />
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="templatemo_wrapper">
+        <div id="templatemo_header">
+
+            <div id="header_left">
+                <div id="site_title">
+                    <a href="@Url.RouteUrl("Default", new {Controller = "Home", Action = "Index", id = "Home" })"><img src="~/Content/images/templatemo_logo.png" alt="logo" /><span>Welcom everyone to the Orange Blog!</span></a>
+                </div>
+                <!-- end of site_title -->
+            </div>
+
+            <div id="header_right">
+
+                <div id="templatemo_menu">
+                    <ul>
+                        <li><a href="@Url.RouteUrl("Default", new {Controller = "Home", Action = "Index", id = "Home" })" class="current">Home</a></li>
+                        <li><a href="@Url.RouteUrl("Gallary", new { seoUrl = "Gallary" })">Gallery</a></li>
+                        <li><a href="@Url.RouteUrl("About", new { seoUrl = "AboutUs" })">About Us</a></li>
+                        <li class="last"><a href="@Url.RouteUrl("Contact", new { seoUrl = "Contact Us" })">Contact Us</a></li>
+                    </ul>
+                </div> 
+                 <!-- end of templatemo_menu -->
+
+            </div>
+
+            <div class="cleaner"></div>
+
+        </div>
+
+        <div id="templatemo_middle">
+            <span class="bg"></span>
+            <div id="templatemo_content_wrapper">
+                <div id="templatemo_content">
+
+                    <h2>About Our Blog</h2>
+                    <div class="image_wrapper fl_img"><img src="~/Content/images/templatemo_image_03.jpg" alt="image" /></div>
+                    <p><em>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent aliquam velit a magna sodales quis elementum ipsum auctor. Ut at metus leo, et dictum sem</em></p>
+                    <p align="justify">Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>. Suspendisse sed odio ut mi auctor blandit. Duis luctus nulla metus, a vulputate mauris. Integer sed nisi sapien, ut gravida mauris. Nam et tellus libero. Cras purus libero, dapibus nec rutrum in, dapibus nec risus. Ut interdum mi sit amet magna feugiat auctor. </p>
+                    <div class="image_wrapper fr_img"><img src="~/Content/images/templatemo_image_04.jpg" alt="image" /></div>
+                    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat dolor at nulla egestas in vestibulum mauris lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut sed accumsan nisl. </p>
+                    <p align="justify">Donec malesuada augue ac nisl sagittis quis cursus dolor scelerisque. Aliquam ac massa ut nibh pulvinar aliquam vel id metus. Nulla id ante a diam volutpat commodo. Curabitur vitae enim sit amet erat ultricies hendrerit. Sed metus leo, condimentum ut ornare sit amet, congue et mauris. </p>
+                    <div class="cleaner_h40"></div>
+
+                    <h2>Services</h2>
+                    <p>In ac libero urna. Suspendisse sed odio ut mi auctor blandit. Duis luctus nulla metus, a vulputate mauris. Phasellus mattis posuere magna sit amet consectetur.</p>
+
+                    <ul class="tmo_list">
+                        <li>Est cursus suscipit eu ac lectus.</li>
+                        <li>Nibh nisi, sed eleifend dolor. </li>
+                        <li>Sollicitudin sapien nec aliquet. </li>
+                        <li>Cras rutrum  consectetur dolor </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="templatemo_sidebar">
+
+                <div class="one_col">
+
+                    <ul class="ads_125">
+                        <li><a href="http://www.templatemo.com/page/1" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 1" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/2" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 2" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/3" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 3" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/4" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 4" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/5" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 5" /></a></li>
+                        <li><a href="http://www.templatemo.com/page/6" target="_parent"><img src="~/Content/images/templatemo_ads.jpg" alt="banner 6" /></a></li>
+                    </ul>
+
+                    <div class="cleaner"></div>
+                </div>
+
+                @Html.Action("Recent", "Posts")
+
+                @Html.Action("Recent", "Comment")
+
+                <div class="cleaner"></div>
+
+            </div>
+
+            <div class="cleaner"></div>
+
+        </div>
+    </div>
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright В© 2014 | Designed by <a href="https://vk.com/maria_manzhos" target="_parent">Maria Manzhos</a>
+        </div>
+    </div>
+
+</body>
+</html>

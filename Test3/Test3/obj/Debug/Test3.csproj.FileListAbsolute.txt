@@ -1,0 +1,86 @@
+D:\test3\Test3\Test3\bin\Test3.dll.config
+D:\test3\Test3\Test3\bin\Test3.dll
+D:\test3\Test3\Test3\bin\Test3.pdb
+D:\test3\Test3\Test3\bin\Antlr3.Runtime.dll
+D:\test3\Test3\Test3\bin\EntityFramework.dll
+D:\test3\Test3\Test3\bin\Microsoft.Web.Infrastructure.dll
+D:\test3\Test3\Test3\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\test3\Test3\Test3\bin\Newtonsoft.Json.dll
+D:\test3\Test3\Test3\bin\System.Net.Http.Formatting.dll
+D:\test3\Test3\Test3\bin\System.Web.Http.dll
+D:\test3\Test3\Test3\bin\System.Web.Http.WebHost.dll
+D:\test3\Test3\Test3\bin\System.Web.Mvc.dll
+D:\test3\Test3\Test3\bin\System.Web.Optimization.dll
+D:\test3\Test3\Test3\bin\System.Web.Providers.dll
+D:\test3\Test3\Test3\bin\System.Web.Razor.dll
+D:\test3\Test3\Test3\bin\System.Web.WebPages.Deployment.dll
+D:\test3\Test3\Test3\bin\System.Web.WebPages.dll
+D:\test3\Test3\Test3\bin\System.Web.WebPages.Razor.dll
+D:\test3\Test3\Test3\bin\WebGrease.dll
+D:\test3\Test3\Test3\bin\EntityFramework.xml
+D:\test3\Test3\Test3\bin\Newtonsoft.Json.xml
+D:\test3\Test3\Test3\bin\System.Net.Http.Formatting.xml
+D:\test3\Test3\Test3\bin\System.Web.Http.xml
+D:\test3\Test3\Test3\bin\System.Web.Http.WebHost.xml
+D:\test3\Test3\Test3\bin\System.Web.Mvc.xml
+D:\test3\Test3\Test3\bin\System.Web.Razor.xml
+D:\test3\Test3\Test3\bin\System.Web.WebPages.xml
+D:\test3\Test3\Test3\bin\System.Web.WebPages.Deployment.xml
+D:\test3\Test3\Test3\bin\System.Web.WebPages.Razor.xml
+D:\test3\Test3\Test3\bin\ru\EntityFramework.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Http.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Mvc.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Optimization.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Providers.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.Razor.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.WebPages.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\test3\Test3\Test3\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\test3\Test3\Test3\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+D:\test3\Test3\Test3\obj\Debug\Test3.dll
+D:\test3\Test3\Test3\obj\Debug\Test3.pdb
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Test3.dll.config
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Test3.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Test3.pdb
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Antlr3.Runtime.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\EntityFramework.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Microsoft.Web.Infrastructure.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Newtonsoft.Json.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Net.Http.Formatting.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Http.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Http.WebHost.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Mvc.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Optimization.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Providers.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Razor.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.Deployment.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.Razor.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\WebGrease.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\EntityFramework.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\Newtonsoft.Json.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Net.Http.Formatting.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Http.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Http.WebHost.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Mvc.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.Razor.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.Deployment.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\System.Web.WebPages.Razor.xml
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\EntityFramework.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Http.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Mvc.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Optimization.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Providers.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.Razor.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.WebPages.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\obj\Debug\Test3.csprojResolveAssemblyReference.cache
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\obj\Debug\Test3.dll
+D:\НЕОБХОДИМО!!!\University\4 курс\ПФиТ\test3\Test3\Test3\obj\Debug\Test3.pdb

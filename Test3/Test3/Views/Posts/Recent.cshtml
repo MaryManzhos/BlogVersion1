@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+@model Test3.Models.RecentPostsModel
+
+<div class="two_col float_l">
+
+    <h5>Recent Posts</h5>
+        @foreach (var Item in Model.ItemsPosts)
+        {
+            <div class="sidebar_menu">
+                <a href="@Url.RouteUrl("Comments", new { seoUrl = Item.URL })">@Item.title</a>
+                <p>@Item.body</p>
+            </div>
+        }
+   
+</div>
+
